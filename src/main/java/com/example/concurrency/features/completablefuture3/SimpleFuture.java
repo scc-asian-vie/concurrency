@@ -28,7 +28,7 @@ public class SimpleFuture {
         });
 
         // Complete the CompletableFuture
-        future.complete("Hello");
+        future.complete("Complete");
 
         // Get the CompletableFuture's result
         try {
